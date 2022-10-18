@@ -30,11 +30,11 @@
                     </div>
                 </div>
             </div>
-            <div class="menu w-[80%] mt-[10px] flex items-center justify-between">
+            <div class="menu w-[80%] my-[7px] flex items-center justify-between">
                 <div class="w-[12%]">
                     <img src="{{ URL::to('/assets/shopee-logo-31418.png') }}" class="w-[100%]">
                 </div>
-                <div class="flex flex-col w-[70%]">
+                <div class="flex flex-col w-[70%] mt-[7px]">
                     <div class="bg-white h-[40px] mb-[5px] flex justify-between rounded-[3px]">
                         <input placeholder="SIEU HOI XIAOMI" type="text" class="bg-transparent text-black h-[100%] w-[70%] pl-[30px]">
                         <div class="w-[50px] bg-red-700 m-[2px] flex items-center justify-center rounded-[3px]">
@@ -56,6 +56,96 @@
                 </div>
                 <div class="mr-[50px]">
                     <img src="{{ URL::to('/assets/icons8-shopping-cart-96.png') }}" class="w-[40px]" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="body bg-slate-200 h-[100vh] flex flex-col items-center">
+            <div class="category bg-white w-[80%] mt-[20px] h-fit">
+                <div class="p-[1.2em] text-gray-500 font-semibold text-[16px]">
+                    DANH MUC
+                </div>
+                <div class="inline-block w-[100%]">
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    <div class="w-[10%] h-[150px] border-[1px] border-gray-100 flex flex-col items-center justify-center float-left">
+                        <img src="{{ URL::to('/assets/doge.jpeg') }}" class="w-[60%] mb-[10px] rounded-full" alt="">
+                        <p class="text-[14px]">Thoi Trang Nam</p>
+                    </div>
+                    
                 </div>
             </div>
         </div>

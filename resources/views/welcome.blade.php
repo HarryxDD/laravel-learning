@@ -6,8 +6,8 @@
         @vite('resources/css/app.css')
     </head>
     <body class="antialiased">
-        <h1 class="text-3xl font-bold underline text-sky-700">
-            Hello world!
-        </h1>
+        <a type="button" href="{{ route('home') }}" class="text-3xl font-bold underline text-sky-700">
+            To Shopee
+        </a>
     </body>
 </html>

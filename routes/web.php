@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\SumController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +15,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');
+// Route::get('/welcome', function () {
+//     return view('welcome');
+// });
+
+Route::get('/welcome', [WelcomeController::class, 'xinchao']);
+
+
+Route::get('/', [WelcomeController::class, 'home'])->name('home'); 
+
+
+// Route::get('/sum', function () {
+//     return view('sum');
+// });
+
+Route::get('sum', function () {
+    return view('sum');
 });
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::post('sum', [SumController::class, 'result']);
